@@ -11,11 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Adrian Velasco Curiel',
+      title: 'Adrian Velasco Curiel',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page Adrian Velasco'),
+      home: const MyHomePage(title: 'Adrian Velasco Curiel'),
     );
   }
 }
