@@ -54,7 +54,14 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
-            ElevatedButton(onPressed: _incrementCounter, child: const Text('Increment Button'))
+            ElevatedButton(
+              onPressed: _incrementCounter,
+              child: const Text('Increment Button'),
+            ),
+            ElevatedButton(
+              onPressed: _incrementCounter,
+              child: const Text('Increment Button 2'),
+            )
           ],
         ),
       ),
