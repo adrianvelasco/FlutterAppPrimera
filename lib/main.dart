@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:primera_app_flutter/screens/home/home_screen.dart';
+import 'package:primera_app_flutter/screens/counter/counter_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     // PREFERIR usar const para crear instancias de constructores constantes.
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: CounterScreen(),
     );
   }
 }
